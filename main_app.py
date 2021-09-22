@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__':
     """数据读取，及数据处理，标准化"""
     # data=np.load(my_parameter.RAW_PATH)['data'][:,0,:]
-    data=data_process.scal_data(data)
+    # data=data_process.scal_data(data)
     # data_df=pd.DataFrame(data,columns=['traffic_flow','share','speed'])
     # data_df=data_process.get_history_data(data_df,columns=['traffic_flow','share','speed'])
 
@@ -172,6 +172,7 @@ if __name__ == '__main__':
     plt.plot(time,GRU_pred[:time_range,show_feature],label='gru_pred')
     plt.plot(time,GRU_dual_stage_attention_pred[:time_range,show_feature],label='gru_dual_stage_attention')
     plt.plot(time, GRU_attention_pred[:time_range, show_feature], label='gru_attention')
+    plt.plot(time,TCN_attention_pred[:time_range,show_feature],label='tcn_pred')
     plt.legend()
     plt.xlabel('time')
     plt.ylabel('traffic flow')

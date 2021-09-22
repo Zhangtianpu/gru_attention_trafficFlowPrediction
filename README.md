@@ -13,7 +13,7 @@ Several methods including GRU Dual Stage Attention Netwrok, GRU, LSTM, TCN were 
 * *_network: The structure of various models
 * my_parameter: Some of settings about our models, such as various path definition, history window which decided how long period historical data I used
 
-# prediction result display
+# Prediction Result Display
 
 | Model | MSE| R Square |
 |-------|----|-----|
@@ -24,6 +24,6 @@ Several methods including GRU Dual Stage Attention Netwrok, GRU, LSTM, TCN were 
 |TCN_Attention|26.530|0.909|
 
 ![image](https://github.com/Zhangtianpu/gru_attention_trafficFlowPrediction/blob/master/fig/traffic%20flow%20prediction%20with%20different%20models.jpg?raw=true)
-# reference
+# Reference
 - [1] [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](http://arxiv.org/abs/1803.01271)
 - [2] [A Dual-Stage Attention-Based Recurrent Neural Network for Time Series Prediction](http://arxiv.org/abs/1704.02971)

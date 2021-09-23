@@ -15,7 +15,7 @@ Several methods including GRU Dual Stage Attention Netwrok, GRU, LSTM, TCN were 
 
 # Prediction Result Display
 
-| Model | MSE| R Square |
+| Model | MAE| R Square |
 |-------|----|-----|
 |LSTM|27.928|0.875|
 |GRU|25.579|0.911|
